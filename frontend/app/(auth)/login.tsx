@@ -48,7 +48,7 @@ export default function LoginScreen() {
     setTimeout(() => {
       setLoading(false);
 
-      const usuarioLocal = 'Productor@citranica.com';
+      const usuarioLocal = 'productor@citranica.com';
 
       const passwordLocal = '123456';
 
