@@ -1,6 +1,6 @@
 # Frontend CitraNica
 
-Este es el módulo de interfaz de usuario de la aplicación CitraNica, construido con React Native y Expo. La app trata de un mercado digital donde queremos que el productor se comunique con el consumidor.
+Este es el módulo de interfaz de usuario de la aplicación CitraNica, construido con React Native y Expo.
 
 ## Configuración inicial
 
