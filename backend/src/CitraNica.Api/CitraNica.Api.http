@@ -1,0 +1,16 @@
+@CitraNica.Api_HostAddress = http://localhost:5228
+
+GET {{CitraNica.Api_HostAddress}}/health
+Accept: application/json
+
+###
+
+GET {{CitraNica.Api_HostAddress}}/health/database
+Accept: application/json
+
+###
+
+GET {{CitraNica.Api_HostAddress}}/api/catalogo/categorias
+Accept: application/json
+
+###
