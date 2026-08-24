@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CitraNica.Api/CitraNica.Api.csproj" />
+    <Project Path="src/CitraNica.Application/CitraNica.Application.csproj" />
+    <Project Path="src/CitraNica.Domain/CitraNica.Domain.csproj" />
+    <Project Path="src/CitraNica.Infrastructure/CitraNica.Infrastructure.csproj" />
+  </Folder>
+</Solution>
