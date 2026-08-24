@@ -1,4 +1,4 @@
-# Citra-Nica 🍊
+# CitraNica 🍊
 > Del campo a tu mesa
 
 ## 🚨 Problema
