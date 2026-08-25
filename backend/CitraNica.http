@@ -1,6 +1,0 @@
-@CitraNica_HostAddress = http://localhost:5110
-
-GET {{CitraNica_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
