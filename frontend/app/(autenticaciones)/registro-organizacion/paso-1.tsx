@@ -220,9 +220,7 @@ export default function RegisterOrgStep1Screen() {
             {/* Botón Siguiente */}
             <TouchableOpacity
               style={styles.submitButton}
-              onPress={() =>
-                router.push('/(auth)/register-organization/step-2')
-              }
+              onPress={() => router.push('/registro-organizacion/paso-2')}
             >
               <Text style={styles.submitButtonText}>Siguiente</Text>
               <ArrowRight color="#FFFFFF" size={20} />

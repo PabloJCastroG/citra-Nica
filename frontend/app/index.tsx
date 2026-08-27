@@ -27,7 +27,6 @@ export default function WelcomeScreen() {
               <Text style={styles.brandWhite}>Citra</Text>
               <Text style={styles.brandOrange}>Nica</Text>
             </Text>
-            <Text style={styles.tagline}>del campo a tu mesa</Text>
           </View>
 
           <View style={styles.buttonSection}>
@@ -51,9 +50,7 @@ export default function WelcomeScreen() {
               Crear cuenta de organización o institución{' '}
               <Text
                 style={styles.orgLink}
-                onPress={() =>
-                  router.push('/(auth)/register-organization/step-1')
-                }
+                onPress={() => router.push('/registro-organizacion/paso-1')}
               >
                 ingresa aquí
               </Text>
@@ -85,8 +82,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   logo: {
-    width: 220,
-    height: 220,
+    width: 300,
+    height: 300,
     marginBottom: 16,
   },
   brandText: {
@@ -101,12 +98,7 @@ const styles = StyleSheet.create({
   brandOrange: {
     color: '#E87722',
   },
-  tagline: {
-    fontSize: 16,
-    color: 'rgba(255,255,255,0.90)',
-    fontWeight: '400',
-    letterSpacing: 0.3,
-  },
+
   buttonSection: {
     gap: 14,
     alignItems: 'center',

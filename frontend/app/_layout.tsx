@@ -12,8 +12,6 @@ export default function RootLayout() {
         screenOptions={{ headerShown: false, animation: 'slide_from_right' }}
       >
         <Stack.Screen name="index" />
-        <Stack.Screen name="(auth)" />
-        <Stack.Screen name="(main)" />
         <Stack.Screen name="+not-found" />
       </Stack>
       <StatusBar style="light" />

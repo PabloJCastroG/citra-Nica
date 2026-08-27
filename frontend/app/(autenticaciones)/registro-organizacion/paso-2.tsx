@@ -210,9 +210,7 @@ export default function RegisterOrgStep2Screen() {
             {/* Botón Final */}
             <TouchableOpacity
               style={styles.submitButton}
-              onPress={() =>
-                router.push('/(auth)/register-organization/success')
-              }
+              onPress={() => router.push('/registro-organizacion/success')}
             >
               <Text style={styles.submitButtonText}>Crear Cuenta</Text>
             </TouchableOpacity>

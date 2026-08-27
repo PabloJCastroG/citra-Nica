@@ -15,7 +15,7 @@ export default function RegisterOrgSuccessScreen() {
   const router = useRouter();
 
   const handleGoToDashboard = () => {
-    router.replace('/(main)/institution-home');
+    router.replace('/inicio-institucion');
   };
 
   return (
